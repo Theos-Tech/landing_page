@@ -1,65 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam Ojo - Frontend Developer</title>
+  <title>Segun Benson - Software Engineer</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    header {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    header nav ul li {
+      display: inline;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    main {
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+    #hero {
+      text-align: center;
+    }
+
+    #about-me h2,
+    #projects h2,
+    #contact h2 {
+      font-weight: bold;
+    }
+
+    #projects .project {
+      margin-bottom: 20px;
+    }
+
+    #projects .project h3 {
+      margin-bottom: 10px;
+    }
+  </style>
+  <script src="script.js"></script>
 </head>
 
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about-me">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact-me">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="hero">
-      <h1>Sam Ojo</h1>
-      <h2>Frontend Developer</h2>
+      <h1>Segun Benson</h1>
+      <h2>Software Engineer</h2>
     </section>
 
-    <section id="about">
+    <section id="about-me">
       <h2>About Me</h2>
-      <p>
-        I am a passionate frontend developer with expertise in building modern and interactive web applications. With several years of experience in the industry, I have developed a strong foundation in HTML, CSS, and JavaScript, along with proficiency in various frontend frameworks and libraries.
-      </p>
-      <p>
-        I believe in creating delightful user experiences through intuitive and visually appealing designs. My goal is to develop highly responsive and scalable web solutions that meet the needs of both clients and end-users.
-      </p>
+      <h3>Journey into tech:</h3>
+      <p>Driven by an innate passion for technology, I have embarked on a fulfilling career in the tech industry. From an early age, I recognized the transformative power of technology and its profound impact on our world. As the landscape continues to evolve towards the digital era, I have eagerly embraced this paradigm shift, ensuring that I remain at the forefront of technological advancements.</p>
+
+      <h3>Soft/Technical skills:</h3>
+      <p>I am a results-driven professional, adept at leveraging my strong problem-solving skills and effective communication to deliver exceptional outcomes. Throughout my career, I have consistently demonstrated an ability to manage complex operations, nurture stakeholder relationships, and drive organizational success. With unwavering integrity, initiative, and adaptability, I thrive in dynamic and demanding environments. My strategic leadership and exceptional skill set position me to contribute significantly to the success of global organizations.</p>
+
+      <h3>Hobbies outside coding:</h3>
+      <p>In addition to my professional pursuits, I find fulfillment in exploring new horizons and engaging with diverse cultures through travel. The opportunity to immerse myself in different environments broadens my perspective and enhances my ability to collaborate effectively across boundaries. Furthermore, I have a deep passion for football, both as an avid spectator and an active participant. Engaging in this sport not only serves as a source of relaxation but also fosters teamwork and camaraderie.</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      <div class="project">
-        <h3>Random Maze 3D Game</h3>
-        <p>
-          The Random Maze 3D Game is an exciting project where players navigate through a randomly generated maze in a 3D environment. It provides an immersive experience with stunning visuals and challenging gameplay. The game incorporates modern web technologies such as Three.js and WebGL to deliver a seamless and engaging gaming experience.
-        </p>
-        <a href="https://github.com/samojo/random-maze-3d-game" target="_blank">GitHub Repository</a>
-        <a href="https://random-maze-3d-game.com" target="_blank">Play the Game</a>
-      </div>
-      <!-- Add more projects here if needed -->
+
+      <section id="project">
+        <h3>THE WANDERGUIDE Project</h3>
+        <p>WanderGuide is a travel application designed to help users effortlessly discover the hidden gems of the world, starting with New York and Los Angeles. The app aims to simplify the travel planning process and alleviate the overwhelm experienced by new travelers in unfamiliar cities. It provides users with detailed information on local attractions, events, transportation, and dining options, saving them time and effort by eliminating the need for extensive research and planning.</p>
+      </section>
+
+      <section id="technologies">
+        <h3>Technologies</h3>
+        <ul>
+          <li>Languages: HTML, CSS, JavaScript, SQL</li>
+          <li>Frameworks: React, Node.js, Express.js</li>
+          <li>Libraries: Bootstrap, jQuery, Redux, Leaflet, Axios, Firebase, Material-UI</li>
+          <li>APIs: Google Maps, Yelp</li>
+          <li>Database: PostgreSQL</li>
+          <li>Hosting Platform: Firebase</li>
+          <li>Version Control: Git, GitHub</li>
+          <li>Hardware: Computer, Mobile device</li>
+          <li>Development Tools: Visual Studio Code, Postman, Chrome Developer Tools</li>
+          <li>Books/References: React Documentation, Node.js Documentation, SQL for Dummies</li>
+        </ul>
+      </section>
+
+      <section id="challenges">
+        <h3>Challenges</h3>
+        <p>The primary challenge addressed by WanderGuide is providing new travelers with a user-friendly and informative platform to plan their trips and navigate unfamiliar cities. The app aims to eliminate the confusion and overwhelm associated with travel planning by offering comprehensive information on local attractions, events, and dining options. However, it is important to note that the app cannot solve issues related to external factors that may affect a user's travel experience, such as weather conditions, language barriers, flight delays, or cancellations.</p>
+      </section>
+
+      <section id="risks">
+        <h3>Risks</h3>
+        <p>Technical risks include data security and API dependence. To mitigate data security risks, the app will implement strong security measures such as encryption, regular security audits, and access control. API dependence poses a risk, as the app relies heavily on third-party APIs like Google Maps and Yelp. To address this, proper error handling and fallback mechanisms will be implemented to ensure the app can function even if one or more APIs are temporarily unavailable.</p>
+        <p>Non-technical risks include user acquisition, market saturation, lack of user adoption, and unexpected changes in the travel industry. To mitigate these risks, extensive market research will be conducted, target audiences will be engaged, and the app's user experience will be continually improved based on user feedback.</p>
+      </section>
+
+      <section id="infrastructure">
+        <h3>Infrastructure</h3>
+        <p>The development team will follow the GitHub flow for branching and merging in the project's repository. This ensures a structured approach to collaboration, with separate branches created for each feature or bug fix. The main branch will only be updated after thorough code review and testing.</p>
+        <p>The deployment strategy involves using AWS cloud services to host the application and database. This allows for scalability and high availability. Continuous deployment will be implemented, using tools like AWS CodePipeline and AWS CodeDeploy to automate the build, test, and deployment process.</p>
+        <p>Testing will be performed using automated tools such as Jest and Enzyme to ensure the app functions correctly across different browsers and devices. This approach catches and resolves bugs early in the development process, ensuring a reliable and stable application.</p>
+      </section>
+   
+	<section id="team">
+        <h3>Team</h3>
+        <ul>
+          <li>Segun Benson (UI/UX Designer and Project Manager) - Responsible for designing the user interface and experience of the app, ensuring that it is intuitive and visually appealing, and project management tasks such as scheduling, budgeting, and team communication.</li>
+          <li>Lucy Muriithi (Developer) - Responsible for the development and implementation of the app.</li>
+        </ul>
+        <p>The roles were decided based on the skills and expertise of each team member, as well as the requirements of the project.</p>
+      </section>
+    </section>
     </section>
 
-    <section id="contact">
+    <section id="contact-me">
       <h2>Contact Me</h2>
-      <p>
-        If you'd like to collaborate, have any questions, or simply want to connect, feel free to reach out to me. I'm always open to new opportunities and discussions.
-      </p>
+      <p>If you'd like to get in touch, feel free to reach out to me using the contact information below:</p>
       <ul>
-        <li>Email: sam.ojo@example.com</li>
-        <li>Phone: +1 123-456-7890</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/samojo/" target="_blank">Sam Ojo</a></li>
+        <li>Email: segunbenson123@gmail.com</li>
+        <li>Phone: +2348029638329</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/segun-benson-27a01538/">linkedin.com/in/segun-benson</a></li>
       </ul>
     </section>
   </main>
 </body>
-
 </html>
